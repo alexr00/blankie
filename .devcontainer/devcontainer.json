@@ -1,19 +1,22 @@
 {
 	"name": "cmbrose/blankie",
 		
-	"postCreateCommand": "dotnet run test",
+	"postCreateCommand": "dotnet run /workspaces/blankie/test",
     
 	"settings": {
 		"terminal.integrated.shell.linux": "/bin/bash",
 	},
+
+	"runArgs": ["--privileged", "--security-opt", "seccomp=unconfined"],
+	"overrideCommand": false,
 	
 	"forwardPorts": [
-    5000, 
-    5001
-  ],
+		5000, 
+		5001
+	],
 	"appPort": [
 		5000, 
-    5001
+    	5001
 	],
 	"portsAttributes": {
 		"5000": {
