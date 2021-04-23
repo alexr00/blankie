@@ -1,0 +1,24 @@
+{
+	"name": "cmbrose/blankie",
+    
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash",
+	},
+	
+	"forwardPorts": [
+    5000, 
+    5001
+  ],
+	"appPort": [
+		5000, 
+    5001
+	],
+	"portsAttributes": {
+		"5000": {
+			"label": "http"
+		},
+		"5001": {
+			"label": "https"
+		}
+	},
+}
