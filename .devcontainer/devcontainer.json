@@ -1,5 +1,7 @@
 {
 	"name": "cmbrose/blankie",
+		
+	"postCreateCommand": ".devcontainer/post-create-command",
     
 	"settings": {
 		"terminal.integrated.shell.linux": "/bin/bash",
