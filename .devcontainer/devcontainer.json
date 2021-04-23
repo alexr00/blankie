@@ -1,7 +1,7 @@
 {
 	"name": "cmbrose/blankie",
 		
-	"postCreateCommand": "dotnet new webapp -n test && cd test && dotnet run &",
+	"postCreateCommand": "dotnet run test",
     
 	"settings": {
 		"terminal.integrated.shell.linux": "/bin/bash",
