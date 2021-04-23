@@ -1,7 +1,7 @@
 {
 	"name": "cmbrose/blankie",
 		
-	"postCreateCommand": "dotnet run /workspaces/blankie/test",
+	"postCreateCommand": "dotnet run /workspaces/blankie/test/test.csproj",
     
 	"settings": {
 		"terminal.integrated.shell.linux": "/bin/bash",
