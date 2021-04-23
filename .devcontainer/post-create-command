@@ -1,0 +1,5 @@
+#!/bin/bash
+
+dotnet new webapp -n test
+cd test
+dotnet run &
